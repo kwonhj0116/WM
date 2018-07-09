@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Insert title here</title>
+        <script src="main_js.js"></script>
+    </head>
+    <body>
+        <form name = "myForm" action="">
+            아이디: <input type="text" name = "id" size = "100px" maxlength="10px" style="width:100px; height: 25px; padding: 5px; border:0px"><br/>
+            이름: <input type="text" name="name" value="홍길동"/><br/>
+            나이: <input type="text" name="age"><br/>
+            패스워드: <input type="password" name="pwd"/><br/>
+            성별: <input type="radio" value="남" name="gender"/>남
+                  <input type="radio" value="여" name="gender"/>여<br/>
+            학력: <select name="hak">
+                <option value="">default</option>
+                <option value="대졸" selected="selected">대졸</option>
+                <option value="대졸">고졸</option>
+                <option value="대졸">기타</option>
+            </select><br/>
+            취미: <input type="checkbox" value="운동" name="hobby">운동
+                  <input type="checkbox" value="영화"  name="hobby">영화<br/>
+            메모
+            <textarea rows="5" cols="50" name="memo"></textarea>
+            <br/>
+            <input type="reset" value="reset">
+            <input type="button" value="submit" id="clickEvent"><br/>
+        </form>
+    </body>
+</html>
+
